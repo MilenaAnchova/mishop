@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 SW-THEMES. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <block class="Magento\Catalog\Block\Product\ProductList\Related" name="catalog.product.related" template="Magento_Catalog::product/list/related-items.phtml">
+            <arguments>
+                <argument name="type" xsi:type="string">related</argument>
+            </arguments>
+        </block>
+        <move element="catalog.product.related" destination="alert.urls" before="-"/>
+
+        <!--   <block class="Magento\Cms\Block\Block" name="hello-world">
+               <arguments>
+                   <argument name="block_id" xsi:type="string">icons-under-menu</argument>
+               </arguments>
+           </block>
+           <move element="hello-world" destination="product.info.extrahint" after="-"/>
+           -->
+        <referenceBlock name="product.info.description">
+            <arguments>
+                <argument name="priority" xsi:type="string">50</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="reviews.tab" >
+            <arguments>
+                <argument name="priority" xsi:type="string">10</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

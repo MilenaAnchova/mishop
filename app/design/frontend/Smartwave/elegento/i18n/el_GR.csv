@@ -1,0 +1,33 @@
+"Coupon code is not valid","KSKSKSS",module,Magento_Quote
+"item","προϊόν",module,Magento_LayeredNavigation
+"items","προϊόντα",module,Magento_LayeredNavigation
+"Filter","Φίλτρα"
+"Now Shopping by","Φίλτρα"
+"Add to Cart","Αγορά",module,Magento_Sales
+"Add to Cart","Αγορά",module,Magento_Wishlist
+"Add to Cart","Αγορά",module,Magento_Reports
+"Add to Cart","Αγορά",module,Magento_Msrp
+"Add to Cart","Αγορά",module,Magento_Catalog
+"Add to my Cart","Προσθήκη στο Καλάθι",module,Magento_Catalog
+"Add to Cart","Αγορά",module,Magento_CatalogWidget
+"Free Shipping is available for your order!","Έχετε δωρεάν Μεταφορικά!",module,Magento_Checkout
+"View and edit cart","Δείτε το καλάθι σας"
+"Write Us","Επικοινωνήστε μαζί μας",module,Magento_Contact
+"What’s on your mind?","Μήνυμα",module,Magento_Contact
+"Contact details","Στοιχεία Επικοινωνίας",module,Magento_Contact
+"Go to Checkout","Πληρωμή"
+"View and edit cart","Το καλάθι μου"
+"Edit item","Επεξεργασία"
+"Item in Cart","Προϊόν/τα στο καλάθι"
+"This is a required field.","Αυτό είναι υποχρεωτικό πεδίο"
+"More Colors","Περισσότερα Χρώματα"
+"You will be charged by an extra fee of %1 (+%2 taxes)","Θα επιβαρυνθείτε με %1"
+"Cash on delivery","Αντικαταβολή"
+"You need","Απομένουν"
+"to get free shipping!","για δωρεάν μεταφορικά"
+"For delivery questions.","Μπορεί να χρειαστούμε επιπλέον πληροφορίες για τη παράδοση των προϊόντων σας.",module,Magento_Checkout
+"Coupon code ""%s"" was applied.","Το κουπόνι εφαρμόστηκε επιτυχώς!",module,Magento_Checkout
+"Coupon code ""%s"" is not valid.","Ο αριθμός κουπονιού δεν είναι έγκυρος",module,Magento_Checkout
+"You added %1 to your <a href=""%2"">shopping cart</a>.","TEST %1 KAI <a href=""%2"">shopping cart</a>."
+"TELEPHONE ORDER","ΤΗΛ. ΠΑΡΑΓΓΕΛΙΕΣ"
+"STORES","ΚΑΤΑΣΤΗΜΑΤΑ"
